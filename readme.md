@@ -20,32 +20,6 @@ To run this application successfully, you need the following tools:
 - H2 Database
 - Java SDK 11.0.3 (64-bit)
 
-### **Server Configuration**
-
-In IntelliJ,
-
-- Click on add configuration which is next to the build icon
-- Click the add (+) button 
-- Choose tomcat server (local)
-- Under the Server tab, choose application server which is Tomcat 9.0.17
-- Click the Deployment tab (Next to server tab)
-- Click the add (+) button 
-- Click artifact 
-- Choose Milestone-planner:war exploded
-- Remove the text in the Application context 
-- Click apply then ok
-
-### **Usage**
-
-1. Open your IntelliJ IDE
-2. Click Open and then locate Milestone Planner.
-3. Run your Tomcat 9.0.17 . This takes time. So, wait until it completes. Once it is done, the app will automatically be launched in the browser.
-4. The user can then start to play around with the application.
-5. A new user is required to sign up first. After signing up successfully, the web loads a login page. Once the user logins successfully, he is taken to his dashboard with empty milestones. This user can then choose to add a milestone.
-6. This user can also choose to share his/her milestones. If so,the user clicks on the share button, which then displays a sharable link
-7. To use the shareable link, copy it, log out, and sign in as another user. Then paste the link you copied in a specified slot called Insert link, and then click import. This takes you to a list of shared milestones.
-8. Once the user has finished using the application, he can choose to terminate the session by clicking the logout button.
-
 ### **Support**
 
 In case you find any bug, or issue in our codes, please create a pull request. We will be happy to chat more and apply the feedback.
@@ -56,6 +30,5 @@ This is the first phase of our application. In the near future, we are planning 
 
 ### **Authors and acknowledgment**
 
-This application was built by a team of three ALC Students: Yonas Chapi, Faouzi Jedidi, and Heritier Muhire.
+This application was built by a team of three ALC Students: Faouzi Jedidi, Yonas Chapi, and Heritier Muhire.
 
-We would like to appreciate the consistency support of our module leader, Katrin. She helps us with additional notes, guidance, and resources to complete this coursework. We also appreciate, Mr Tabot, our facilitator for consistency followup and guidance in the time we were working on this project.
